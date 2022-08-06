@@ -1,0 +1,15 @@
+html{scroll-behavior: smooth;}
+
+#Body_style{background-color: lightblue;}
+
+#header_style{text-align: center;padding: 15px;background-color: lightslategray;}
+
+#nav_bar{background-color:lightslategray ;padding: 20px;}
+
+.ab{font-size: 20px;padding-left: 25px;padding-right: 25px;padding-top: 10px;padding-bottom: 10px;color: aliceblue;}
+
+#search_style{display: inline;margin-left:450px}
+
+#about_app{font-size: 20px;}
+
+footer{margin-top: 40px; margin-bottom: 50px; text-align: center;font-size: 25px;}

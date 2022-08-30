@@ -1,0 +1,640 @@
+header{
+    background-image: url(./slide-2.jpg);
+    background-attachment: fixed;
+    opacity: .7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+    width: 96%;
+    height: 90vh;
+}
+nav{
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10%;
+    height: 14%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+#naval_menu_icon{
+    display: none;
+}
+#nuk_logo{
+    display: flex;
+    background-color:orangered;
+    width: 180px;
+    height: 115px;
+}
+#logo_button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size:xx-large;
+    font-weight: bolder;
+    color: white;
+    margin: auto;
+
+}
+.nav_menu{
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-top: 35px;
+
+}
+#nav_quote{
+    display: inline-block;
+    width: 240px;
+    height: 100%;
+    background-color: orangered;
+}
+#nav_quote_a{
+    display: flex;
+    justify-content: center;
+}
+#top_heading{
+    margin-left: 10%;
+    margin-top: 13%;
+}
+#top_main_heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+#top_main_p{
+    font-size: 25px;
+    color: white;
+}
+#top_main_quote{
+    background-color: orangered;
+    color: white;
+    margin-left: 11%;
+    width: 15%;
+    height: 8%;
+    border: 0;
+    font-size: 15px;
+}
+.img_icon{
+    width:40%;
+    height: 10%;
+    margin: 10%;
+    padding: 20%;
+    border-bottom: .1px solid gray;
+}
+#img_icon_id{
+    border: 0;
+}
+#head_icon{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    top: -25%;
+    width: 60px;
+    height: 242px;
+    background-color: black;
+}
+#top_info{
+    display: flex;
+    background-color: orangered;
+    justify-content: space-around;
+    float: right;
+    width: 65%;
+    height: 240px;
+    position: relative;
+    top: -130px;
+    right: -4%;
+}
+.info_details{
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+#info_details_a{
+    color: white;
+    text-decoration: none;
+}
+.heding_special{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 45px;
+}
+.more_details{
+    float: right;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: gray;
+    margin-top: 5%;
+}
+.sec_mar{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.description_div{
+    margin-left:1%;
+}
+.desc_img{
+    width: 30%;
+    height: 50%;
+}
+#descriptin_special{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    opacity: .7;
+}
+.desc_link{
+    display: inline-block;
+    margin-top: 10px;  
+    text-decoration: none;
+    color: grey;
+}
+#workig_men{
+    width: 49%;
+    margin-top: 20%;
+}
+#who_we_are{
+    display:inline-block;
+    width: 40%;
+    font-family: sans-serif;
+    margin-left:10%;
+    
+}
+#who_we_are_h{
+    font-size: 40px;
+    opacity: .9;
+}
+.who_we_are_p{
+    font-size: 16px;
+    opacity: .7;
+    line-height: 30px;
+}
+.who_we_are_a{
+    text-decoration: none;
+    color: gray;
+}
+#num_details{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.numbers{
+    color: orangered;
+    font-size: 70px;
+    font-family: sans-serif;
+}
+.emp_detail{
+    font-size: 21px;
+    position: relative;
+    top: -40px;
+    opacity: .6;
+}
+#all_work{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    background-color: whitesmoke;
+}
+.all_img{
+    width: 90%;
+    height: 90%px;
+    padding-left:5%;
+    padding-top: 8%;
+}
+#all_work_img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around
+}
+.work_heding{
+    display: inline-block;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-bottom: 8%;
+}
+.about_more{
+    display: flex;
+    margin-right: 8%;
+    margin-top: 9%;
+    font-size: 18px;
+    color: gray;
+    text-decoration: none;
+    float: right;
+}
+#make_some{
+    width: 100%;
+    height: 350px;
+    background-color: orangered;
+}
+#make_some_h{
+    font-family: sans-serif;
+    color: white;
+    padding-left: 21%;
+    padding-top: 8%;
+    font-size: 40px;
+}
+#make_some_p{
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    padding-left: 33%;
+    opacity: .8;
+}
+#make_some_l{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-family: sans-serif;
+    opacity: .9;
+    padding-left: 47%;
+}
+#director{
+    display: flex;
+    margin-left:9%;
+    margin-right: 9%;
+    justify-content: space-between;
+}
+.director_img{
+    width:100%;
+    height: 70%;
+    background-color: white;
+}
+.director_d{
+    display: inline-block;
+    background-color: white;
+    width: 24%;
+    height: 430px;
+    box-shadow: 5px 5px 10px gray;
+}
+.director_h{
+    padding-left: 6%;
+    opacity: .8;
+}
+.director_profile{
+    width: 22%;
+    height: 38%;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    top: -145px;
+}
+#testo_main{
+    display: flex;
+}
+.empty_testo{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    width: 60px;
+    position: relative;
+    top: -45px;
+    transform: rotateZ(90deg);
+    height: 60px;
+    border-radius: 30px;
+    background-color: orangered;
+}
+#testo_d{
+    display: inline-block;
+    font-family: sans-serif;
+    margin-top: 20%;
+    font-size: 19px;
+    width: 65%;
+    margin-left: 10%;
+}
+#testo_h{
+    font-size: 40px;
+}
+#testo_aa{
+    display: inline-block;
+    margin-top: 10%;
+    font-size: 18px;
+    text-align: center;
+}
+.testo_ab{
+    display: inline-block;
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+.testo_ac{
+    background-color: white;
+    padding: 7%;
+    margin-bottom: 15%;
+}
+#latest_new{
+margin: 5%;
+}
+.latest_img{
+    width:100%;
+    height: 55%;
+}
+#latest_main_img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.latest_div{
+    width: 95%;
+    height: 570px;
+    margin-top: 10%;
+    color: white;
+    background-color: orangered;
+}
+.latest_date{
+    width: 80px;
+    color: gray;
+    height: 120px;
+    display:flex;
+    float: right;
+    font-size: 24px;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: -493px;
+    background-color:white;
+}
+.latest_date_d{
+    display:inline-block;
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    background-color: orangered;
+}
+.latest_h{
+    margin-left: 8%;
+    font-family: sans-serif;
+    opacity: .8;
+}
+.latest_p{
+    margin-left: 9%;
+    font-family: sans-serif;
+    opacity: .6;
+    line-height: 30px;
+}
+.latest_l{
+    color: white;
+    margin-left: 9%;
+    font-family: sans-serif;
+    opacity: .8;
+}
+#down_logo{
+    display: flex;
+    width: 97%;
+    margin: 1.5%;
+    height: 150px;
+    background-color: orangered;
+    font-size: 20px;
+    color: white;
+    justify-content: space-around;
+    padding-top: 8%;
+    margin-bottom: 0;
+}
+footer{
+    display: flex;
+    width: 88%;
+    background-color: midnightblue;
+    justify-content: space-between;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer > div{
+    width: 33%;
+    font-size: 17px;
+    padding: 5%;
+    font-family: sans-serif;
+    padding-bottom: 10%;
+}
+.footer_link{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 15%;
+}
+#down_nuuk{
+    font-size: 40px;
+    background-color: orangered;
+    color: white;
+    font-family: sans-serif;
+    border: 0;
+    opacity: .8;
+    font-weight: bolder;
+    width: 180px;
+    height: 130px;
+    margin-left: 10%;
+    position: relative;
+    top: -130px;
+}
+@media (max-width:400px){
+    header{
+        margin: 0;
+        margin-top: 50px;
+        width: 100%;
+        height: 78vh;
+    }
+    #top_main_heading{
+        font-size:35px;
+    }
+    #top_main_p{
+        font-size: 20px;
+        opacity: .6;
+    }
+    nav{
+        width:0;
+        margin: 0;
+    }
+    #nuk_logo{
+        display: flex;
+        background-color:orangered;
+        height: 50px;
+        position: relative;
+        top: -96px;
+        justify-content: right;
+    }
+    #naval_menu_icon{
+        display: inline-block;
+        position: relative;
+        font-size: 25px;
+        left: 240px;
+        top: -80px;
+    }
+    
+    #nav_menu_main{
+        display: none;
+    }
+    #top_main_quote{
+        background-color: orangered;
+        color: white;
+        margin-left: 8%;
+        margin-top: 8%;
+        width: 35%;
+        height: 8%;
+        border: 0;
+        font-size: 13px;
+    }
+    #head_icon{
+        display: flex;
+        float: right;
+        position: relative;
+        top: -32px;
+        width: 50px;
+        height: 180px;
+        background-color: black;
+    }
+    #top_info{
+        display: none;
+    }
+    .heding_special{
+        display: block;
+        font-size: 22px;
+        margin-top: 20%;
+    }
+    .sec_mar{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .more_details{
+        float: left;
+        color: gray;
+    }
+    #descriptin_special{
+        display: block;
+        padding-top: 20%;
+        font-family: sans-serif;
+        opacity: .7;
+        font-size: 15px;
+    }
+    #who_we_are{
+        display: block;
+        width: 90%;
+    }
+    #workig_men{
+        width: 100%;
+        margin-top: 20%;
+    }
+    #who_we_are_h{
+        font-size: 30px;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+    #num_details{
+        display: block;
+    }
+    #all_work{
+        padding-bottom: 3%;
+    }
+    #all_work_img{
+        display: block;
+    }
+    .about_more{
+        display: flex;
+        margin-left: 8%;
+        margin-bottom: 19%;
+        float: left;
+        margin-top: 0;
+    }
+    #make_some_h{
+        padding-left: 5%;
+        padding-top: 15%;
+        font-size: 25px;
+        opacity: .8;
+    }
+    #make_some_p{
+        padding-left:5%;
+        opacity: .7;
+        margin-top: 12%;
+    }
+    #make_some_l{
+        opacity: .8;
+        padding-left: 5%;
+    }
+    #director{
+        display: block;
+    }
+    .director_d{
+        display:inline-block;
+        width: 100%;
+        height: 430px;
+        margin-top: 12%;
+        margin-bottom: 5%;
+    }
+    #testo_main{
+        display:block;
+    }
+    .empty_testo{
+        font-size: 40px;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
+    #testo_d{
+        display:block;
+        margin-top: 30%;
+        width:90%;
+        margin-left: 5%;
+    }
+    #testo_aa{
+        display:block;
+    }
+    .testo_ab{
+        display: block;
+        width: 90%;
+    }
+    .testo_ac{
+        background-color: white;
+        padding: 7%;
+        margin-bottom: 8%;
+    }
+    #latest_new{
+        margin: 0;
+    }
+    #latest_main_img{
+        display: block;
+    }
+    .latest_div{
+        margin-top: 30%;
+    }
+    .latest_date{
+        position: relative;
+        top: -525px;
+    }
+    #down_logo{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin:0;
+        text-align: center;
+        height: 500px;
+        font-size: 24px;
+        padding-bottom: 10%;
+    }
+    footer{
+        display: block;
+        width: 95%;
+        margin:0;
+        padding-top: 15%;
+        padding-bottom: 30%;
+    }
+    footer > div{
+        width: 93%;
+        padding: 3%;
+    }
+    #down_nuuk{
+        font-size: 35px;
+        width: 160px;
+        height: 60px;
+        position: relative;
+        top: -60px;
+    }
+}
